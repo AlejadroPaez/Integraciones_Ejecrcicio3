@@ -1,0 +1,54 @@
+body{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    background: #CCCCCC;
+}
+label{
+    font-size: 1.5em;
+}
+#contenido{
+    margin-top: 10em;
+    background: #D8FFFC;
+    width: 25em;
+    height: 14em;        
+    display: flex;
+    justify-content: center;
+    border-radius: 30px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    position: relative;
+}
+#dato1{
+    margin-top: 10px;
+    width: 100%;
+    border-radius: 10px;
+    height: 1.8em;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 10px;
+    border: none;
+    font-size: 1em;
+}
+button{        
+    margin: 1.3em 0 1em 0;
+    width: 6em;
+    height: 2.5em;
+    border-radius: 10px;
+    border: none;
+    background: #04AA6D;
+    color: white;
+    float: right;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    font-size: 1em;
+    font-weight: bold;
+}    
+
+#divResultado{        
+    display: none;
+    margin-top: 10em;
+    background: #D8FFFC;
+    width: 40em;
+    height: 20em;                
+    justify-content: center;
+    border-radius: 30px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    position: relative;
+}
